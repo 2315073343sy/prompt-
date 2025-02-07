@@ -193,12 +193,12 @@
         
         "text_structure": {
             "paragraph_format": {
-                "max_length": 300,           // 每段最大字符数
-                "min_length": 10,            // 每段最小字符数
+                "max_length": 25,           // 每段最大字符数
+                "min_length": 5,            // 每段最小字符数
                 "style": "natural_speech"    // 自然对话风格
             },
             "sentence_rules": {
-                "max_length": 50,            // 单句最大字符数
+                "max_length": 8,            // 单句最大字符数
                 "must_end_with": ["。", "！", "？", "~"]  // 句子结束标记
             }
         },
